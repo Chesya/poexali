@@ -13,6 +13,9 @@ body {
   padding: 0;
   margin: 0;
 }
+body a:hover{
+  color: gray;
+}
 p{
   font-size: 1.1vw;
   font-weight: normal;
@@ -92,6 +95,9 @@ header span{
 .sidebar .down a{
   color: #959595;
 }
+.sidebar .down a:hover{
+  color: white;
+}
 .sidebar form {
   box-shadow: 0px 0px 0px 0.14vw #353535;
   border-radius: 1%;
@@ -122,17 +128,26 @@ content a{
   color: #cc3333;
   font-size: 1.1vw;
 }
+content a:hover .main_event_image,content a:hover .size_img{
+  opacity: 0.5;
+  transition: 0.7s;
+}
 .main_event_content{
   float: right;
   width: 100%;
   padding-bottom: 4%;
   box-shadow: 0 0.05vw 0px 0 grey;
 }
-.main_event_img{
-  margin-top: 2%;
-  float: left;
+.main_event_imgbox{
   height: 30vw;
   width: 66%;
+  margin-top: 2%;
+  float: left;
+}
+
+.main_event_imgbox .main_event_image{
+  height: 100%;
+  width: 100%;
   background: url(../images/event_img.jpg) no-repeat 0% 0%;
   background-size: cover;
 }
@@ -165,12 +180,17 @@ content a{
 }
 .event p{
   margin-top: 3%;
+  margin-bottom: 3%;
   overflow: hidden;
   font-size: 1.1vw;
 }
 .event_img{
   width: 100%;
   height: 17vw;
+}
+.event .size_img{
+  width: 100%;
+  height: 100%;
 }
 .event .img1{
   background: url(../images/history1.jpg) no-repeat 0% 0%;
@@ -222,6 +242,9 @@ footer ul li a{
   padding: 2%;
   display: block;
   padding: 8% 0;
+}
+footer a:hover{
+  color: white;
 }
 footer p{
   text-align: center;
