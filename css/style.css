@@ -93,7 +93,7 @@ header span{
   color: #959595;
 }
 .sidebar form {
-  border: 0.14vw solid #353535;
+  border: 0.13vw solid #353535;
   border-radius: 1%;
   margin: 0 10%;
 }
@@ -105,7 +105,7 @@ header span{
   font-size: 1.1vw;
   font-weight: bold;
   padding: 2% 4%;
-  background: url(../images/search.png) no-repeat 100%;
+  background: url(../images/search.png) no-repeat right 50%;
   background-size: 2vw;
 }
 .main_event {
