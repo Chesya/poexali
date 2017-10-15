@@ -1,7 +1,6 @@
 /* Contdonwn */
 *{
    font-family: 'PT Sans', sans-serif;
-   font-size: 0;
    margin: 0;
    padding: 0;
 }
@@ -9,6 +8,7 @@ content .nul{
   margin-right: 0 ;
 }
 body {
+  font-size: 0;
   background: #222222;
   padding: 0;
   margin: 0;
