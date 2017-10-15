@@ -95,6 +95,7 @@ header a{
 .sidebar form input{
   border: none;
 }
+
 .sidebar form .btn_search{
   width: 100%;
   font-size: 1.1vw;
@@ -110,7 +111,6 @@ header a{
   padding-bottom: none;
   width: 78%;
 }
-
 
 content a{
   text-decoration: none;
