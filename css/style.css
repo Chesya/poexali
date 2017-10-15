@@ -88,8 +88,8 @@ header a{
   color: #959595;
 }
 .sidebar form {
-  border: 2px solid #353535;
-  border-radius: 3px;
+  border: 0.14vw solid #353535;
+  border-radius: 1%;
   margin: 0 10%;
 }
 .sidebar form input{
@@ -100,8 +100,8 @@ header a{
   font-size: 1.1vw;
   font-weight: bold;
   padding: 2% 4%;
+  background: url(../images/search.png) no-repeat 100%;
   background-size: cover;
-  background: url(../images/search2.png) no-repeat 100%;
 }
 .main_event {
   background: white;
@@ -127,13 +127,13 @@ content a{
   margin-top: 2%;
   float: left;
   height: 30vw;
-  width: 63%;
+  width: 66%;
   background: url(../images/event_img.jpg) no-repeat 0% 0%;
   background-size: cover;
 }
 .main_event_info{
   margin-top: 2%;
-  width: 35%;
+  width: 32%;
   float: right;
   margin-left: 2%;
 }
